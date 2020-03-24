@@ -52,7 +52,7 @@ impl From<sys::SDL_MessageBoxColorScheme> for MessageBoxColorScheme {
 }
 
 /// `button_id` is the integer that will be returned
-/// by `show_message_box`. It is not sed by SDL2,
+/// by `show_message_box`. It is not set by SDL2,
 /// and should only be used to know which button has been triggered
 #[derive(Debug)]
 pub struct ButtonData<'a> {
